@@ -1,16 +1,13 @@
 {
-  "name": "remove-bg-api",
+  "name": "remove-background",
   "version": "1.0.0",
-  "private": true,
   "scripts": {
-    "start": "vercel dev"
+    "start": "node api/remove-bg.js"
   },
   "dependencies": {
-    "formidable": "^3.7.1",
-    "node-fetch": "^3.4.1",
-    "sharp": "^0.32.4"
+    "@vercel/node": "latest"
   },
   "engines": {
-    "node": "18.x"
+    "node": "24.x"
   }
 }
