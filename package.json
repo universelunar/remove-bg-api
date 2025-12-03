@@ -1,0 +1,16 @@
+{
+  "name": "remove-bg-api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "formidable": "^3.7.1",
+    "node-fetch": "^3.4.1",
+    "sharp": "^0.32.4"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
